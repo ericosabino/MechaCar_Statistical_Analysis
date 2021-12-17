@@ -41,12 +41,12 @@ When we look individually each lot, we can see that the variance in lots 1 and 2
 
 In the last part of this analysis, I will perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-![](04_ttest_general.png)
+![](/Images/04_ttest_general.png)
 
 Looking into the results across all manufacturing lots shows the prototypes are not statistically different from the population mean. The p-value is 0.06, which is higher 0.05, so there is not enough evidence to reject the null hypothesis. Now let's look into individual lots:
 
 
-![](04_ttest_by_lot.png)
+![](/Images/04_ttest_by_lot.png)
 
 
 Looking into the lots individually, we can see that lots 1 and 2 are not statistically different from the whole lot, as the p-values are not lower than 0.05. When we look into lot 3, though, this lot is low enough for us to reject the null hyphotesis, with a p-value of 0.04168.
